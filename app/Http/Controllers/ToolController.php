@@ -29,6 +29,11 @@ class ToolController extends Controller
         return view('tools.route-generator');
     }
 
+    public function universalConverter()
+    {
+        return view('tools.universal-converter');
+    }
+
     public function history()
     {
         $histories = ToolUsage::where('user_id', Auth::id())

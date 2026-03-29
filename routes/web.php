@@ -11,9 +11,10 @@ Route::get('/dashboard', [ToolController::class, 'index'])->name('dashboard');
 Route::get('/tool/sql-to-eloquent', [ToolController::class, 'sqlToEloquent'])->name('tool.sql-to-eloquent');
 Route::get('/tool/json-formatter', [ToolController::class, 'jsonFormatter'])->name('tool.json-formatter');
 Route::get('/tool/route-generator', [ToolController::class, 'routeGenerator'])->name('tool.route-generator');
+Route::get('/tool/universal-converter', [ToolController::class, 'universalConverter'])->name('tool.universal');
 
 Route::post('/api/tool-usage', [ToolUsageController::class, 'store'])->name('api.tool-usage');
-
+Route::post('/api/code/convert', [\App\Http\Controllers\Api\CodeConverterController::class, 'convert'])->name('api.code.convert');
 Route::middleware('auth')->group(function () {
     Route::get('/history', [ToolController::class, 'history'])->name('history');
     
