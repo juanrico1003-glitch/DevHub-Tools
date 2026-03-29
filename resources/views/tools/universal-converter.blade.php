@@ -31,10 +31,17 @@
                     <option value="Bootstrap">Bootstrap</option>
                     <option value="PHP">PHP</option>
                     <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                    <option value="COBOL">COBOL</option>
+                    <option value="Go">Go</option>
+                    <option value="Rust">Rust</option>
+                    <option value="Swift">Swift</option>
                     <option value="Laravel">Laravel framework</option>
                     <option value="React">React framework</option>
-                    <option value="Python">Python</option>
-                    <option value="Java">Java</option>
                     <option value="XML">XML</option>
                     <option value="HTML">HTML</option>
                 </select>
@@ -58,10 +65,17 @@
                     <option value="Bootstrap">Bootstrap</option>
                     <option value="PHP">PHP</option>
                     <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                    <option value="COBOL">COBOL</option>
+                    <option value="Go">Go</option>
+                    <option value="Rust">Rust</option>
+                    <option value="Swift">Swift</option>
                     <option value="Laravel">Laravel framework</option>
                     <option value="React">React framework</option>
-                    <option value="Python">Python</option>
-                    <option value="Java">Java</option>
                     <option value="XML">XML</option>
                     <option value="HTML">HTML</option>
                 </select>

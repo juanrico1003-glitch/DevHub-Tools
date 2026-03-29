@@ -24,7 +24,7 @@ class CodeConverterService
             throw new Exception("The Gemini API Key is missing. Please set GEMINI_API_KEY in your .env file or Railway variables.");
         }
 
-        $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" . $apiKey;
+        $url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=" . $apiKey;
 
         $prompt = "You are an expert developer tool. Your only task is to convert the following code snippet from {$sourceType} to {$targetType}.\n";
         $prompt .= "Guidelines:\n";
