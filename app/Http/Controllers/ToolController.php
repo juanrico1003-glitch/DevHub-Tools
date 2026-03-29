@@ -8,11 +8,6 @@ use Illuminate\Support\Facades\Auth;
 
 class ToolController extends Controller
 {
-    public function index()
-    {
-        return view('tools.dashboard');
-    }
-
     public function universalConverter()
     {
         return view('tools.universal-converter');
