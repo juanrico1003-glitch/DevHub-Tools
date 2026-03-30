@@ -8,9 +8,29 @@ use Illuminate\Support\Facades\Auth;
 
 class ToolController extends Controller
 {
+    public function home()
+    {
+        return view('home');
+    }
+
     public function universalConverter()
     {
         return view('tools.universal-converter');
+    }
+
+    public function languageTranslator()
+    {
+        return view('tools.language-translator');
+    }
+
+    public function databaseConverter()
+    {
+        return view('tools.database-converter');
+    }
+
+    public function dictionary()
+    {
+        return view('tools.dictionary');
     }
 
     public function history()

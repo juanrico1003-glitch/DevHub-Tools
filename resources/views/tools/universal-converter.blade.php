@@ -24,26 +24,78 @@
             <div class="w-full md:w-1/3">
                 <label for="sourceLanguage" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Translate From</label>
                 <select id="sourceLanguage" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm rounded-md shadow-sm">
-                    <option value="SQL" selected>SQL</option>
-                    <option value="Laravel Eloquent">Laravel Eloquent</option>
-                    <option value="Vanilla CSS">Vanilla CSS</option>
-                    <option value="Tailwind CSS">Tailwind CSS</option>
-                    <option value="Bootstrap">Bootstrap</option>
-                    <option value="PHP">PHP</option>
-                    <option value="JavaScript">JavaScript</option>
-                    <option value="Python">Python</option>
-                    <option value="C">C</option>
-                    <option value="C++">C++</option>
-                    <option value="C#">C#</option>
-                    <option value="Java">Java</option>
-                    <option value="COBOL">COBOL</option>
-                    <option value="Go">Go</option>
-                    <option value="Rust">Rust</option>
-                    <option value="Swift">Swift</option>
-                    <option value="Laravel">Laravel framework</option>
-                    <option value="React">React framework</option>
-                    <option value="XML">XML</option>
-                    <option value="HTML">HTML</option>
+                    <optgroup label="Lenguajes Base">
+                        <option value="PHP" selected>PHP</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="TypeScript">TypeScript</option>
+                        <option value="Python">Python</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="C#">C#</option>
+                        <option value="Java">Java</option>
+                        <option value="Go">Go</option>
+                        <option value="Rust">Rust</option>
+                        <option value="Swift">Swift</option>
+                        <option value="Kotlin">Kotlin</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="Dart">Dart</option>
+                        <option value="Scala">Scala</option>
+                        <option value="R">R</option>
+                        <option value="COBOL">COBOL</option>
+                        <option value="Lua">Lua</option>
+                        <option value="Perl">Perl</option>
+                        <option value="Shell / Bash">Shell / Bash</option>
+                        <option value="PowerShell">PowerShell</option>
+                    </optgroup>
+                    <optgroup label="Frameworks Backend">
+                        <option value="Laravel (PHP)">Laravel (PHP)</option>
+                        <option value="Symfony (PHP)">Symfony (PHP)</option>
+                        <option value="CodeIgniter (PHP)">CodeIgniter (PHP)</option>
+                        <option value="Django (Python)">Django (Python)</option>
+                        <option value="FastAPI (Python)">FastAPI (Python)</option>
+                        <option value="Flask (Python)">Flask (Python)</option>
+                        <option value="Ruby on Rails">Ruby on Rails</option>
+                        <option value="Spring Boot (Java)">Spring Boot (Java)</option>
+                        <option value="Express.js (Node)">Express.js (Node)</option>
+                        <option value="NestJS (Node)">NestJS (Node)</option>
+                        <option value="ASP.NET Core (C#)">ASP.NET Core (C#)</option>
+                        <option value="Gin (Go)">Gin (Go)</option>
+                        <option value="Actix (Rust)">Actix (Rust)</option>
+                    </optgroup>
+                    <optgroup label="Frameworks Frontend">
+                        <option value="React">React</option>
+                        <option value="Vue.js">Vue.js</option>
+                        <option value="Angular">Angular</option>
+                        <option value="Svelte">Svelte</option>
+                        <option value="Next.js">Next.js</option>
+                        <option value="Nuxt.js">Nuxt.js</option>
+                        <option value="Astro">Astro</option>
+                        <option value="SolidJS">SolidJS</option>
+                        <option value="Alpine.js">Alpine.js</option>
+                        <option value="Qwik">Qwik</option>
+                        <option value="Remix">Remix</option>
+                    </optgroup>
+                    <optgroup label="Estilos / Markup">
+                        <option value="Vanilla CSS">Vanilla CSS</option>
+                        <option value="Tailwind CSS">Tailwind CSS</option>
+                        <option value="Bootstrap">Bootstrap</option>
+                        <option value="Bulma CSS">Bulma CSS</option>
+                        <option value="Material UI (MUI)">Material UI (MUI)</option>
+                        <option value="Chakra UI">Chakra UI</option>
+                        <option value="Styled Components">Styled Components</option>
+                        <option value="Sass / SCSS">Sass / SCSS</option>
+                        <option value="CSS Modules">CSS Modules</option>
+                        <option value="HTML">HTML</option>
+                        <option value="XML">XML</option>
+                        <option value="JSX">JSX / TSX</option>
+                    </optgroup>
+                    <optgroup label="Mobile">
+                        <option value="React Native">React Native</option>
+                        <option value="Flutter (Dart)">Flutter (Dart)</option>
+                        <option value="SwiftUI">SwiftUI</option>
+                        <option value="Jetpack Compose (Kotlin)">Jetpack Compose (Kotlin)</option>
+                        <option value="Ionic">Ionic</option>
+                    </optgroup>
                 </select>
             </div>
 
@@ -58,26 +110,78 @@
             <div class="w-full md:w-1/3">
                 <label for="targetLanguage" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Translate To</label>
                 <select id="targetLanguage" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm rounded-md shadow-sm">
-                    <option value="SQL">SQL</option>
-                    <option value="Laravel Eloquent" selected>Laravel Eloquent</option>
-                    <option value="Vanilla CSS">Vanilla CSS</option>
-                    <option value="Tailwind CSS">Tailwind CSS</option>
-                    <option value="Bootstrap">Bootstrap</option>
-                    <option value="PHP">PHP</option>
-                    <option value="JavaScript">JavaScript</option>
-                    <option value="Python">Python</option>
-                    <option value="C">C</option>
-                    <option value="C++">C++</option>
-                    <option value="C#">C#</option>
-                    <option value="Java">Java</option>
-                    <option value="COBOL">COBOL</option>
-                    <option value="Go">Go</option>
-                    <option value="Rust">Rust</option>
-                    <option value="Swift">Swift</option>
-                    <option value="Laravel">Laravel framework</option>
-                    <option value="React">React framework</option>
-                    <option value="XML">XML</option>
-                    <option value="HTML">HTML</option>
+                    <optgroup label="Lenguajes Base">
+                        <option value="PHP">PHP</option>
+                        <option value="JavaScript" selected>JavaScript</option>
+                        <option value="TypeScript">TypeScript</option>
+                        <option value="Python">Python</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="C#">C#</option>
+                        <option value="Java">Java</option>
+                        <option value="Go">Go</option>
+                        <option value="Rust">Rust</option>
+                        <option value="Swift">Swift</option>
+                        <option value="Kotlin">Kotlin</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="Dart">Dart</option>
+                        <option value="Scala">Scala</option>
+                        <option value="R">R</option>
+                        <option value="COBOL">COBOL</option>
+                        <option value="Lua">Lua</option>
+                        <option value="Perl">Perl</option>
+                        <option value="Shell / Bash">Shell / Bash</option>
+                        <option value="PowerShell">PowerShell</option>
+                    </optgroup>
+                    <optgroup label="Frameworks Backend">
+                        <option value="Laravel (PHP)">Laravel (PHP)</option>
+                        <option value="Symfony (PHP)">Symfony (PHP)</option>
+                        <option value="CodeIgniter (PHP)">CodeIgniter (PHP)</option>
+                        <option value="Django (Python)">Django (Python)</option>
+                        <option value="FastAPI (Python)">FastAPI (Python)</option>
+                        <option value="Flask (Python)">Flask (Python)</option>
+                        <option value="Ruby on Rails">Ruby on Rails</option>
+                        <option value="Spring Boot (Java)">Spring Boot (Java)</option>
+                        <option value="Express.js (Node)">Express.js (Node)</option>
+                        <option value="NestJS (Node)">NestJS (Node)</option>
+                        <option value="ASP.NET Core (C#)">ASP.NET Core (C#)</option>
+                        <option value="Gin (Go)">Gin (Go)</option>
+                        <option value="Actix (Rust)">Actix (Rust)</option>
+                    </optgroup>
+                    <optgroup label="Frameworks Frontend">
+                        <option value="React">React</option>
+                        <option value="Vue.js">Vue.js</option>
+                        <option value="Angular">Angular</option>
+                        <option value="Svelte">Svelte</option>
+                        <option value="Next.js">Next.js</option>
+                        <option value="Nuxt.js">Nuxt.js</option>
+                        <option value="Astro">Astro</option>
+                        <option value="SolidJS">SolidJS</option>
+                        <option value="Alpine.js">Alpine.js</option>
+                        <option value="Qwik">Qwik</option>
+                        <option value="Remix">Remix</option>
+                    </optgroup>
+                    <optgroup label="Estilos / Markup">
+                        <option value="Vanilla CSS">Vanilla CSS</option>
+                        <option value="Tailwind CSS">Tailwind CSS</option>
+                        <option value="Bootstrap">Bootstrap</option>
+                        <option value="Bulma CSS">Bulma CSS</option>
+                        <option value="Material UI (MUI)">Material UI (MUI)</option>
+                        <option value="Chakra UI">Chakra UI</option>
+                        <option value="Styled Components">Styled Components</option>
+                        <option value="Sass / SCSS">Sass / SCSS</option>
+                        <option value="CSS Modules">CSS Modules</option>
+                        <option value="HTML">HTML</option>
+                        <option value="XML">XML</option>
+                        <option value="JSX">JSX / TSX</option>
+                    </optgroup>
+                    <optgroup label="Mobile">
+                        <option value="React Native">React Native</option>
+                        <option value="Flutter (Dart)">Flutter (Dart)</option>
+                        <option value="SwiftUI">SwiftUI</option>
+                        <option value="Jetpack Compose (Kotlin)">Jetpack Compose (Kotlin)</option>
+                        <option value="Ionic">Ionic</option>
+                    </optgroup>
                 </select>
             </div>
 
